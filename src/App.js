@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import mermaid from 'mermaid';
 import * as d3 from 'd3';
 
-const API_BASE = 'http://localhost:3001/api/charts';
+const API_BASE = 'https://ai-chart-generator-1.onrender.com/';
 
 const styles = {
   container: {
